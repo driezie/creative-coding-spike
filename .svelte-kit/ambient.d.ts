@@ -88,7 +88,6 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
-	export const NINJA_WELCOME_SHOWN: string;
 	export const NODE_ENV: string;
 	export const VIPSHOME: string;
 }
@@ -184,7 +183,6 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
-		NINJA_WELCOME_SHOWN: string;
 		NODE_ENV: string;
 		VIPSHOME: string;
 		[key: `PUBLIC_${string}`]: undefined;
