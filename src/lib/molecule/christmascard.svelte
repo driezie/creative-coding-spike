@@ -106,7 +106,7 @@
       navigator
         .share({
           files: filesArray,
-          title: "Hier is uw kerstkaart!",
+          title: "Hier is uw kerstkaart! 🎄",
           text: "Veel plezier met uw kerstkaart! ",
         })
         .then(() => console.log("Share was successful."))
