@@ -8,7 +8,7 @@
     topgradient,
     bottomgradient,
     lightbulbscolor,
-  } from "$lib/stores/cardStore";
+  } from "$lib/stores/cardstore";
   import Fallingsnow from "$lib/atoms/christmas/fallingsnow.svelte";
   import Lightbulb from "$lib/atoms/christmas/lightbulb.svelte";
   import NumberButton from "$lib/atoms/numberButton.svelte";
