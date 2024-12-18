@@ -1,5 +1,5 @@
 <script>
-  import { savedCardNumber } from "$lib/stores/cardStore";
+  import { savedCardNumber } from "$lib/stores/cardstore";
   export let cardNumber = 1;
   export let selected = false;
 
