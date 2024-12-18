@@ -1,6 +1,6 @@
 <script>
   // components imports
-  import ProgramCard from "../molecules/programcard.svelte"; // renamed
+  import ProgramCard from "$lib/molecules/programcard.svelte";
   import ScheduleTimes from "../atoms/schedule-times.svelte";
 
   // General imports
