@@ -107,7 +107,7 @@
         .share({
           files: filesArray,
           title: "Hier is uw kerstkaart!",
-          text: "Veel plezier met uw kerstkaart!",
+          text: "Veel plezier met uw kerstkaart! ",
         })
         .then(() => console.log("Share was successful."))
         .catch((error) => console.log("Sharing failed", error));
